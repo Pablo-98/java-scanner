@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class scanner{
 public static void main( String[] args) {
+    
     Scanner input = new Scanner(System.in);
 
     // three questions for the user
@@ -26,6 +27,10 @@ public static void main( String[] args) {
     // concatenation: process of grouping 'gluing' strings with different data types toether
 
     String response = "Hi, pleased to meet you " + name + "I also like " +food + "!!!" + " I bet you were born in " + year + "?, eh?";
+
+
+    // Instead of console.log like I would use in JS, Java uses 'System.out.println()'
+    System.out.println(response);
 
 
 
